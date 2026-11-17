@@ -1,0 +1,55 @@
+body {
+    background: #f3f4f8;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: #512da8;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.dashboard-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+    height: 100%;
+}
+
+.dashboard-title {
+    color: #512da8;
+    font-weight: bold;
+}
+
+.registration {
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.correct {
+    border: 2px solid #198754 !important;
+    background: #e9f8ef;
+}
+
+.incorrect {
+    border: 2px solid #dc3545 !important;
+    background: #fff0f0;
+}
+
+.btn-purple {
+    background: #512da8;
+    color: white;
+}
+
+.btn-purple:hover {
+    background: #392078;
+    color: white;
+}
+
+footer {
+    background: #512da8;
+    color: white;
+}
